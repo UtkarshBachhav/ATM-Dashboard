@@ -1,54 +1,36 @@
-🏧 ATM Transaction Analytics Dashboard (Power BI)
-This repository showcases a Power BI dashboard project focused on ATM transaction data analytics. The dashboard provides insightful visualizations to understand transaction trends, machine performance, customer behavior, and operational efficiency.
+# 🏧 ATM Transaction Analytics Dashboard (Power BI)
 
-📌 Project Overview
-Developed an interactive Power BI dashboard to analyze ATM transaction metrics including withdrawal counts, transaction amounts, failure rates, and machine usage patterns.
+This repository contains a Power BI dashboard project that visualizes and analyzes **ATM transaction data**, enabling insights into usage trends, failure rates, and location-wise performance.
 
-Cleaned and transformed raw ATM data using Power Query, ensuring data consistency and accuracy.
+---
 
-Created advanced DAX measures to calculate:
+## 📌 Project Overview
 
-Total Transactions & Withdrawals
+- Developed an **interactive Power BI dashboard** to monitor ATM metrics such as transaction volume, success/failure rates, and location activity.
+- Utilized **Power Query** for efficient data cleaning and transformation from raw logs.
+- Built **DAX measures** to calculate:
+  - ✅ Total and successful transactions  
+  - ❌ Failure count and rates  
+  - 📅 Time-based trends (daily/monthly)  
+  - 🌍 Region- and ATM-wise performance
+- Enabled better decision-making for banking operations and machine deployment optimization.
 
-Success vs. Failure Rates
+---
 
-Daily and Monthly Trends
+## 📊 Key Features
 
-Location-wise and ATM-wise Performance
+- 📌 **KPI Cards** for total transactions, failure %, average amount, etc.
+- 📈 **Line & Bar Charts** showing temporal trends.
+- 🌐 **Geo-location (if included)** to visualize ATM spread and performance.
+- 🔍 **Slicers & Filters**: By ATM ID, date, city, status.
+- 🚨 **Failure Diagnosis View**: Identify frequent failure causes or faulty machines.
 
-Enabled decision-makers to monitor transaction load, detect high-failure ATMs, and optimize machine deployment.
+---
 
-📈 Key Features
-KPI Cards: Show total transactions, success rate, and average transaction value.
+## 🛠️ Tools & Technologies
 
-Bar & Line Charts: Visualize transaction trends over time.
-
-Map Visuals (if applicable): Display location-based ATM performance.
-
-Slicers: Filter by ATM ID, city, date, and transaction status.
-
-Failure Insights: Identify frequent error types and peak failure times.
-
-🛠️ Tools Used
-Power BI Desktop
-
-Power Query Editor
-
-DAX (Data Analysis Expressions)
-
-Excel/CSV Data Source (ATM Transaction Logs)
-
-🧑‍💼 Use Cases
-Bank Operations Teams: Monitor ATM usage and downtime.
-
-Data Analysts: Identify trends in customer withdrawal behavior.
-
-IT Support Teams: Track recurring ATM error codes and failure patterns.
-
-📸 Screenshots
-(Include dashboard screenshots or GIFs here if you’re publishing this on GitHub)
-
-👨‍🎓 About the Developer
-Utkarsh Bachhav
-Final Year B.Tech Student – Electronics and Telecommunication
-Power BI Enthusiast | Aspiring Data Analyst
+```text
+- Power BI Desktop
+- Power Query (M Language)
+- DAX (Data Analysis Expressions)
+- Excel / CSV (ATM logs as data source)
